@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script src="mcq.js"></script>
+
+<head>
+  <title>MCQ</title>
+  <link rel="stylesheet" href="mcq.css">
+</head>
+
+<body>
+  <label for="head" class="create" id="head">
+    <h1>Create MCQ</h1>
+  </label>
+  <fieldset>
+    <label for="ques" id="ques">Question:<input type="text" id="qun" name="qun"></label><br><br>
+    <label for="oop1" id="oop1">1) <input type="text" id="op1" name="op1"></label><br>
+    <label for="oop1" id="oop2">2) <input type="text" id="op2" name="op2"></label><br>
+    <label for="oop1" id="oop3">3) <input type="text" id="op3" name="op3"></label><br>
+    <label for="oop1" id="oop4">4) <input type="text" id="op4" name="op4"></label><br><br>
+    <label for="option" class="option">Select the correct option:</label><br>
+    <label for="ans" id="ans">
+      1<input type="radio" class="option" name="option" id="1" value="1">
+      2<input type="radio" class="option" name="option" id="2" value="2">
+      3<input type="radio" class="option" name="option" id="3" value="3">
+      4<input type="radio" class="option" name="option" id="4" value="4"></label>
+    <br><br>
+    <label for="su" id="su"><input type="submit" class="form-submit-button" value="Submit" id="sub"></label>
+  </fieldset>
+  <label for="chng" id="chng"> <input type="button" class="button" name="play" id="play" value="Play"></label><br><br>
+  <div class="tip" id="tip"><span class="hovertext"
+      data-hover="1)Add MCQ. 2)Press Play button to play. 3)Play button moves to the next mcq while playing.">Tip&#128161;</span>
+  </div>
+  <div class="footer">
+    <p>Done by Soham Dutta</p>
+  </div>
+</body>
+
+</html>
