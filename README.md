@@ -1,8 +1,12 @@
 # MCQ
-Create and Display MCQ
-User gets QUESTION ENTRY mode and PLAY mode.  
+#Create and Display MCQ
+User gets QUESTION mode and PLAY mode in front page.   
+
+  
 In QUESTION mode:  
-User inserts QUESTION and also provides 4 choices, selecting the right one.  
+User inserts QUESTION and also provides 4 choices, selecting the right one.   
+
+  
 In play mode:  
 the choices are randomly shuffled so as the order of the questions,creating a hard time to choose the correct choice.  
 The UI is creative and is responsible to create a playable mood.   
